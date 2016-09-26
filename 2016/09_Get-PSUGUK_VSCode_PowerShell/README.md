@@ -23,6 +23,8 @@
 | Close current folder | <kbd>Ctrl+K F</kbd> | <kbd>Cmd+K F</kbd> |
 | Jump to line | <kbd>Ctrl+G</kbd> or <kbd>Ctrl+P :<kbd> | <kbd>Cmd+G</kbd> or <kbd>Cmd+P :<kbd> |
 | Select current line | <kbd>Ctrl+I</kbd> | <kbd>Cmd+I</kbd> |
+| Zoom In | Ctrl+= | Cmd+= |
+| Zoom Out | Ctrl+- | Cmd+- |
 
 ### Markdown preview
 
@@ -49,6 +51,10 @@ ALT+Right
 
 #### Autosave
 
+#### Trim trailing whitespace
+
+##### File type specific
+
 #### Disable tabs
 
 ### Keyboard bindings
@@ -59,11 +65,14 @@ ALT+Right
 
 | Feature | Shortcut (Windows)| Shortcut (Mac) |
 | --- | --- | --- |
+| Trigger Intellisense | <kbd>Ctrl+Space</kbd> | <kbd>Cmd+Space</kbd> |
 | Goto definition | <kbd>F12</kbd> | <kbd>F12</kbd> |
+| Peek definition | <kbd>Alt+F12</kbd> | <kbd>Opt+F12</kbd> |
 | Find all references | <kbd>Shift+F12</kbd> | <kbd>Shift+F12</kbd> |
 | Change all occurrences | <kbd>Ctrl+F2</kbd> | <kbd>Cmd+F2</kbd> |
 | Bracket matching | <kbd>Ctrl+Shift+\</kbd> |<kbd>Cmd+Shift+\</kbd> |
-| Move Lines Up/Down | <kbd>Alt+Up</kbd> / <kbd>Alt+Down</kbd> | <kbd>Opt+Up</kbd> / <kbd>Opt+Down</kbd> | 
+| Move Lines Up | <kbd>Alt+Up</kbd> | <kbd>Opt+Up</kbd> | 
+| Move Lines Down | <kbd>Alt+Down</kbd> | <kbd>Opt+Down</kbd> |
 | Copy current line (up) | <kbd>Shift+Alt+Up</kbd> | <kbd>Shift+Opt+Up</kbd> |
 | Copy current line (down) | <kbd>Shift+Alt+Down</kbd> | <kbd>Shift+Opt+Down</kbd> |
 | Find by symbol | <kbd>Ctrl+Shift+O</kbd> | <kbd>Cmd+Shift+O</kbd> |
@@ -76,7 +85,12 @@ ALT+Right
 | Format code | <kbd>Shift+Alt+F</kbd> | <kbd>Shift+Opt+F</kbd> |
 | Scroll file (Up) | <kbd>Ctrl+Up</kbd> | <kbd>Ctrl+Up</kbd> |
 | Toggle Terminal | <kbd>Ctrl+'</kbd> | <kbd>Cmd+'</kbd> |
-
+| Code folding | Ctrl+Shift+[ | |
+| Code folding | Ctrl+Shift+] | |
+| Undo cursor position | Ctrl+U | |
+| Trim trailing whitespace | Ctrl+K Ctrl+X | |
+| Copy path of active file | Ctrl+K P | |
+| Show active file in File Explorer / Finder | Ctrl+K R | Cmd+K R |
 
 ### Gutter indicators
 
@@ -94,6 +108,11 @@ ALT+Right
 1. Git History (git log)
 1. Git Blame
 1. Annotator
+1. Align
+1. Beautify
+1. EditorConfig
+1. Runner
+1. Slack
 
 #### Side-loading
 
