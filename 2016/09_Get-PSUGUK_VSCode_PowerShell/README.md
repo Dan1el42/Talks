@@ -7,7 +7,7 @@
 | Feature | Shortcut (Windows)| Shortcut (Mac) |
 | --- | --- | --- |
 | Command Palette | <kbd>F1</kbd> or <kbd>Ctrl+Shift+P</kbd> | <kbd>F1</kbd> or <kbd>Cmd+Shift+P</kbd> |
-| Quick Open | <kbd>Ctrl+P</kbd> | <kbd>Cmd+P</kbd> |
+| Quick Open | <kbd>Ctrl+P</kbd>, <kbd>Ctrl+E</kbd> | <kbd>Cmd+P</kbd>, <kbd>Cmd+E</kbd> |
 | Toggle side bar | <kbd>Ctrl+B</kbd> | <kbd>Cmd+B</kbd> |
 | Switch to Explorer | <kbd>Ctrl+Shift+E</kbd> | <kbd>Cmd+Shift+E</kbd> |
 | Switch to Global Search  | <kbd>Ctrl+Shift+F</kbd> | <kbd>Cmd+Shift+F</kbd> |
@@ -16,12 +16,13 @@
 | Switch to Debug  | <kbd>Ctrl+Shift+D</kbd> | <kbd>Cmd+Shift+D</kbd> |
 | Switch to Extensions | <kbd>Ctrl+Shift+X</kbd> | <kbd>Cmd+Shift+X</kbd> |
 | Error and warnings | <kbd>Ctrl+Shift+M</kbd> | <kbd>Cmd+Shift+M</kbd> |
-| Cycle forward (errors / warnings ) | <kbd>F8</kbd> | <kbd>F8</kbd> |
-| Cycle backwards (errors / warnings) | <kbd>Shift+F8</kbd> | <kbd>Shift+F8</kbd> |
+| - Cycle forward | <kbd>F8</kbd> | <kbd>F8</kbd> |
+| - Cycle backwards | <kbd>Shift+F8</kbd> | <kbd>Shift+F8</kbd> |
 | Change language mode (syntax highlighting) | <kbd>Ctrl+K M</kbd> | <kbd>Cmd+K M</kbd> |
 | Change themes | <kbd>F1 color theme</kbd> | <kbd>F1 color theme</kbd> |
 | Close current folder | <kbd>Ctrl+K F</kbd> | <kbd>Cmd+K F</kbd> |
 | Jump to line | <kbd>Ctrl+G</kbd> or <kbd>Ctrl+P :<kbd> | <kbd>Cmd+G</kbd> or <kbd>Cmd+P :<kbd> |
+| Select current line | <kbd>Ctrl+I</kbd> | <kbd>Cmd+I</kbd> |
 
 ### Markdown preview
 
@@ -62,9 +63,20 @@ ALT+Right
 | Find all references | <kbd>Shift+F12</kbd> | <kbd>Shift+F12</kbd> |
 | Change all occurrences | <kbd>Ctrl+F2</kbd> | <kbd>Cmd+F2</kbd> |
 | Bracket matching | <kbd>Ctrl+Shift+\</kbd> |<kbd>Cmd+Shift+\</kbd> |
+| Move Lines Up/Down | <kbd>Alt+Up</kbd> / <kbd>Alt+Down</kbd> | <kbd>Opt+Up</kbd> / <kbd>Opt+Down</kbd> | 
 | Copy current line (up) | <kbd>Shift+Alt+Up</kbd> | <kbd>Shift+Opt+Up</kbd> |
 | Copy current line (down) | <kbd>Shift+Alt+Down</kbd> | <kbd>Shift+Opt+Down</kbd> |
 | Find by symbol | <kbd>Ctrl+Shift+O</kbd> | <kbd>Cmd+Shift+O</kbd> |
+| Add cursors above | <kbd>Ctrl+Shift+Alt+Up</kbd> | <kbd>Cmd+Shift+Opt+Up</kbd> |
+| Add cursors below | <kbd>Ctrl+Shift+Alt+Down</kbd> | <kbd>Cmd+Shift+Opt+Down</kbd> |
+| Add cursors to the right | <kbd>Ctrl+Shift+Alt+Right</kbd> | <kbd>Cmd+Shift+Opt+Right</kbd> |
+| Add cursors to the left | <kbd>Ctrl+Shift+Alt+Left</kbd> | <kbd>Cmd+Shift+Opt+Left</kbd> |
+| Expand selection | <kbd>Shift+Alt+Right</kbd> | <kbd>Shift+Opt+Right</kbd> |
+| Shrink selection | <kbd>Shift+Alt+Left</kbd> | <kbd>Shift+Opt+Left</kbd> |
+| Format code | <kbd>Shift+Alt+F</kbd> | <kbd>Shift+Opt+F</kbd> |
+| Scroll file (Up) | <kbd>Ctrl+Up</kbd> | <kbd>Ctrl+Up</kbd> |
+| Toggle Terminal | <kbd>Ctrl+'</kbd> | <kbd>Cmd+'</kbd> |
+
 
 ### Gutter indicators
 
@@ -72,7 +84,20 @@ ALT+Right
 
 ### Snippets
 
-### Side-loading extensions
+### Extensions
+
+1. PowerShell
+1. Open in GitHub / Bitbucket / VisualStudio.com
+1. Open In GitHub
+1. Bookmarks
+1. Spelling and Grammar Checker
+1. Git History (git log)
+1. Git Blame
+1. Annotator
+
+#### Side-loading
+
+`~\.vscode\extensions`
 
 ## Git integration
 
@@ -85,3 +110,4 @@ ALT+Right
 ## PowerShell integration
 
 ### Run tasks
+
