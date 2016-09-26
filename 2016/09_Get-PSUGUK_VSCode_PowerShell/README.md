@@ -7,7 +7,7 @@ Lightweight code/text editor in between Notepad and full-featured IDEs.
 Based on the Electron framework like Atom, Slack but not a fork of Atom.
 Actually based on the Visual Studio Online editor (Monaco) 
 
-## UI Overview / Basic navigation
+## Tour of the UI / Basic navigation
 
 Most features are not exposed through the menus. They are accessed via the command palette 
 or keyboard shortcuts.
@@ -203,14 +203,14 @@ file:line:column?
 
 ## PowerShell integration
 
-### Integrated Terminal
+1. Intellisense
+2. Integrated Terminal
+3. Debugging
 
-### Debugging
+* Breakpoints
+* Conditional breakpoints
 
-1. Breakpoints
-1. Conditional breakpoints
+4. Script Analyzer
 
-### Script Analyzer
-
-### Run tasks
+5. Run tasks
 

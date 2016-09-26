@@ -6,3 +6,4 @@ function Get-Foo
         )
         return 4
 }
+
