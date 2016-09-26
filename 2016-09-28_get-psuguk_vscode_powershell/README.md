@@ -2,6 +2,8 @@
 
 ## Welcome and Introduction
 
+Code optimized editor
+
 Lightweight code/text editor in between Notepad and full-featured IDEs.
 
 Based on the Electron framework like Atom, Slack but not a fork of Atom.
@@ -121,7 +123,7 @@ Ctrl+K Ctrl+K
 
 | Feature | Shortcut (Windows)| Shortcut (Mac) |
 | --- | --- | --- |
-| Trigger Intellisense | <kbd>Ctrl+Space</kbd> | <kbd>Cmd+Space</kbd> |
+| Trigger IntelliSense | <kbd>Ctrl+Space</kbd> | <kbd>Cmd+Space</kbd> |
 | Goto definition | <kbd>F12</kbd> | <kbd>F12</kbd> |
 | Peek definition | <kbd>Alt+F12</kbd> | <kbd>Opt+F12</kbd> |
 | Find all references | <kbd>Shift+F12</kbd> | <kbd>Shift+F12</kbd> |
@@ -191,7 +193,7 @@ file:line:column?
 
 ### Publish
 
-### Staging / Unstaging
+### Stage / Unstage
 
 ### Commit / Multi-line commit
 
