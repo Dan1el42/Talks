@@ -207,6 +207,9 @@ file:line:column?
 
 ### Debugging
 
+1. Breakpoints
+1. Conditional breakpoints
+
 ### Script Analyzer
 
 ### Run tasks

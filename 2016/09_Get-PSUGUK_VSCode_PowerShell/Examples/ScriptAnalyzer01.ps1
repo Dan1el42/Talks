@@ -17,3 +17,12 @@ function Make-Tea
         Get-Content -Path '\\invoke\tea-maker\'
     }
 }
+
+function Publish-Credential
+{
+    param
+    (
+        [String] $Credential
+    )
+
+}

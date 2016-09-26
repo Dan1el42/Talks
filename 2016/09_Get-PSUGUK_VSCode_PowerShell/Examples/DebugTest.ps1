@@ -24,3 +24,5 @@ function Do-Work($workCount) {
 }
 
 Do-Work 50
+
+#$secureString = ConvertTo-SecureString -String 'Pass@word' -AsPlainText -Force

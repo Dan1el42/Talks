@@ -29,7 +29,7 @@
 RootModule = 'SampleModule.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+#ModuleVersion = '1.0.0'
 
 # ID used to uniquely identify this module
 GUID = '3ff4d4b6-ade9-46f3-a4f2-2ad6f5508388'
