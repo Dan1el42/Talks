@@ -265,7 +265,17 @@ Define with <kbd>Ctrl+K Ctrl+K</kbd>
 #### e. Snippets
 
 ```JSON
-
+    "powershell_script": {
+		"prefix": "powershell_script",
+		"body": [
+            "powershell_script '${1:name}' do", 
+            "  code <<-EOH",
+            "  ${2:powershell code}",
+            "  EOH",
+            "end"
+        ],
+		"description": "Use the powershell_script resource to execute a script using the Windows PowerShell interpreter."
+	}
 ```
 
 ### 4. Extensions
