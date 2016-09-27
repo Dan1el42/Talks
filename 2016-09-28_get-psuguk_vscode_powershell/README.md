@@ -1,24 +1,168 @@
-# Visual Studio Code and PowerShell
+# Talk: Visual Studio Code and PowerShell
 
-## Welcome and Introduction
+Notes and code on GitHub: http://bit.ly/2dpebuz
 
-Code optimized editor
+Follow me on Twitter: [Dan1el42](https://twitter.com/Dan1el42)
+Connect with me on LinkedIn: [Daniel Krebs](https://www.linkedin.com/in/krebsdaniel)
+
+## A) Welcome and Introduction
+
+## B) Demo 1
+
+### 1. What is VS Code?
+
+A code optimized editor with built-in debugging and extension support.
 
 Lightweight code/text editor in between Notepad and full-featured IDEs.
 
 Based on the Electron framework like Atom, Slack but not a fork of Atom.
 Actually based on the Visual Studio Online editor (Monaco) 
 
-## Tour of the UI / Basic navigation
+### 2. Where to get it?
 
-Most features are not exposed through the menus. They are accessed via the command palette 
-or keyboard shortcuts.
+- [Stable](https://code.visualstudio.com/download)
+- [Insiders](https://code.visualstudio.com/insiders)
+
+### 3. Out of the box experience
+
+#### a. Tour of the UI
 
 1. View Bar
+   - Explorer
+   - Search/Replace
+   - Git
+   - Debug
+   - Extensions 
 1. Side bar
 1. Editor Groups
 1. Panel
 1. Status Bar
+
+**Status Bar**
+
+*Left (Workspace)*
+
+1. Git branch
+1. Git Sync
+1. Errors and warnings
+1. Additional indicators
+
+*Right (Editor)*
+
+1. Line/column
+1. Indentation
+1. File encoding
+1. End of line sequence
+1. Language mode
+1. Feedback
+
+**Editor Groups / Side-by-side editing**
+
+1. Left
+2. Center
+3. Right
+
+CMD+\
+CMD+1
+CMD+2
+CMD+3
+CMD+Click
+
+Squashing
+
+Most features are not exposed through the menus. They are accessed via the command palette 
+or keyboard shortcuts.
+
+#### b. Settings
+
+**Hide files from explorer**
+
+```JSON
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true
+    }
+```
+
+**Rulers**
+
+```JSON
+    // Columns at which to show vertical rulers
+    "editor.rulers": [
+        100,
+        125
+    ]
+```
+
+**Autosave**
+
+```JSON
+    // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange" (editor loses focus), "onWindowChange" (window loses focus). If set to "afterDelay", you can configure the delay in "files.autoSaveDelay".
+    "files.autoSave": "off",
+
+    // Controls the delay in ms after which a dirty file is saved automatically. Only applies when "files.autoSave" is set to "afterDelay"
+    "files.autoSaveDelay": 1000
+```
+
+**Trim trailing whitespace when you save a file**
+
+```JSON
+    // When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": true
+```
+
+**File extension specific language mode**
+```JSON
+    "files.associations": {
+        "*.myconfig": "json"
+    }
+```
+
+**Disable tabs**
+
+```JSON
+    // Controls if opened editors should show in tabs or not.
+    "workbench.editor.showTabs": true
+```
+
+Changes take effect immediately.
+
+#### c. Editing and keyboard navigation
+
+**Gutter indicators**
+
+Green bar: Line(s) added
+Blue bar: Line(s) modified
+Red triangle: Line(s) deleted
+
+**Command Palette**
+
+<kbd>F1</kbd>
+
+`?` Get help
+`>` Show and Run commands
+`!` 
+`#` Search symbols
+`edt` 
+`ext`
+`git`
+`task`
+
+**Markdown preview**
+
+<kbd>CMD+K V</kbd>
+
+**Navigate file history**
+
+<kbd>CMD+Tab</kbd>
+<kbd>ALT+Left</kbd>
+<kbd>ALT+Right</kbd>
+
+**Keyboard bindings**
 
 | Feature | Shortcut (Windows)| Shortcut (Mac) |
 | --- | --- | --- |
@@ -41,91 +185,10 @@ or keyboard shortcuts.
 | Select current line | <kbd>Ctrl+I</kbd> | <kbd>Cmd+I</kbd> |
 | Zoom In | Ctrl+= | Cmd+= |
 | Zoom Out | Ctrl+- | Cmd+- |
-
-### Editor Groups
-
-1. Left
-2. Center
-3. Right
-
-#### Side-by-side editing
-
-CMD+\
-CMD+1
-CMD+2
-CMD+3
-CMD+Click
-
-Squashing
-
-### Status Bar
-
-#### Left (Workspace)
-
-1. Git branch
-1. Git Sync
-1. Errors and warnings
-1. Additional indicators
-
-#### Right (Editor)
-
-1. Line/column
-1. Indentation
-1. File encoding
-1. End of line sequence
-1. Language mode
-1. Feedback
-
-### Command Palette
-
-?
->
-!
-#
-
-### Markdown preview
-
-CMD+K V
-
-### Navigate file history
-
-CMD+Tab
-ALT+Left
-ALT+Right
-
-### User settings
-
-Changes take effect immediately.
-
-#### Hide files
-
-#### Rulers
-
-#### File associations
-
-#### Autosave
-
-#### Trim trailing whitespace
-
-##### File type specific
-
-#### Disable tabs
-
-### Workspace settings
-
-### Keyboard bindings
-
-Ctrl+K Ctrl+K
-
-### Global search and replace
-
-## Advanced features and navigation
-
-| Feature | Shortcut (Windows)| Shortcut (Mac) |
-| --- | --- | --- |
 | Trigger IntelliSense | <kbd>Ctrl+Space</kbd> | <kbd>Cmd+Space</kbd> |
 | Goto definition | <kbd>F12</kbd> | <kbd>F12</kbd> |
 | Peek definition | <kbd>Alt+F12</kbd> | <kbd>Opt+F12</kbd> |
+| Open definition to the side | <kbd>Ctrl+Alt+Click</kbd> | <kbd>Cmd+Opt+Click</kbd> |
 | Find all references | <kbd>Shift+F12</kbd> | <kbd>Shift+F12</kbd> |
 | Change all occurrences | <kbd>Ctrl+F2</kbd> | <kbd>Cmd+F2</kbd> |
 | Bracket matching | <kbd>Ctrl+Shift+\</kbd> |<kbd>Cmd+Shift+\</kbd> |
@@ -144,25 +207,47 @@ Ctrl+K Ctrl+K
 | Format code | <kbd>Shift+Alt+F</kbd> | <kbd>Shift+Opt+F</kbd> |
 | Scroll file (Up) | <kbd>Ctrl+Up</kbd> | <kbd>Ctrl+Up</kbd> |
 | Toggle Terminal | <kbd>Ctrl+'</kbd> | <kbd>Cmd+'</kbd> |
-| Code folding | Ctrl+Shift+[ | |
-| Code folding | Ctrl+Shift+] | |
-| Undo cursor position | Ctrl+U | |
-| Trim trailing whitespace | Ctrl+K Ctrl+X | |
-| Copy path of active file | Ctrl+K P | |
-| Show active file in File Explorer / Finder | Ctrl+K R | Cmd+K R |
-| Comment/Uncomment line | Ctrl+/ | Cmd+/ |
+| Code folding | <kbd>Ctrl+Shift+[ | |
+| Code folding | <kbd>Ctrl+Shift+] | |
+| Undo cursor position | <kbd>Ctrl+U | <kbd>Cmd+U</kbd> |
+| Trim trailing whitespace | <kbd>Ctrl+K Ctrl+X | <kbd>Cmd+K Cmd+X</kbd> |
+| Copy path of active file | <kbd>Ctrl+K P | <kbd>Cmd+K P</kbd> |
+| Show active file in File Explorer / Finder | <kbd>Ctrl+K R | <kbd>Cmd+K R |
+| Comment/Uncomment line | <kbd>Ctrl+/ | Cmd+/ |
 
-### Gutter indicators
+Define with <kbd>Ctrl+K Ctrl+K</kbd>
 
-### JSON schema
+#### d. Git integration
 
-### Snippets
+**Branches and Tags**
 
-### Extensions
+**Inline view vs. changes view**
+
+**Stage / Unstage**
+
+**Commit / Multi-line commit**
+
+**Publish**
+
+#### Default diff / merge tool
+
+**Command line arguments**
+
+`-d` or `--diff`
+`-n` or `--new-window`
+`-r` or `--reuse-window`
+`-g` or `--goto`
+`file`
+`file:line:column?`
+
+#### e. Snippets / JSON schema
+
+
+
+### 4. Extensions
 
 1. [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 1. [Open in GitHub / Bitbucket / VisualStudio.com](https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github)
-1. [Open In GitHub](https://marketplace.visualstudio.com/items?itemName=sysoev.vscode-open-in-github)
 1. [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 1. Spelling and Grammar Checker
 1. [Git History (including git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
@@ -180,39 +265,23 @@ Ctrl+K Ctrl+K
 
 `~\.vscode\extensions`
 
-## Git integration
+## C) Demo 2
 
-### Command line arguments
+### 1. Integrated Terminal
 
---d or --diff
--n or --new-window
--r or --reuse-window
--g or --goto
-file
-file:line:column?
+New/Toggle <kbd>Ctrl/Cmd+'</kbd>
 
-### Publish
+### 2. IntelliSense
 
-### Stage / Unstage
+<kbd>Ctrl/Cmd+Space</kbd>
 
-### Commit / Multi-line commit
+### 3. Script Analyzer
 
-### Branches and Tags
+### 4. Debugging
 
-### Inline view vs. changes view
-
-### Default diff / merge tool
-
-## PowerShell integration
-
-1. Intellisense
-2. Integrated Terminal
-3. Debugging
-
-* Breakpoints
+* Breakpoints <kbd>F9</kbd>
 * Conditional breakpoints
 
-4. Script Analyzer
+### 5. Run tasks
 
-5. Run tasks
-
+## D) Wrap up
