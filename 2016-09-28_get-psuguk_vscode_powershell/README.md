@@ -9,6 +9,8 @@ Notes and code on GitHub: http://bit.ly/get-psuguk-vscode
 
 Hello, my name is ...
 
+![Hello, my name is ...](media/hello_my_name_is.png)
+
 ## B) Demo 1
 
 ### 1. What is VS Code?
@@ -19,6 +21,8 @@ Lightweight code/text editor in between Notepad and full-featured IDEs.
 
 Based on the Electron framework like Atom, Slack but not a fork of Atom.
 Actually based on the Visual Studio Online editor (Monaco)
+
+![What is VS Code?](media/vscode_what_is_it.png)
 
 ### 2. Where to get it?
 
@@ -136,6 +140,8 @@ Changes take effect immediately.
 #### c. Editing and keyboard navigation
 
 **Gutter indicators**
+
+![Gutter indicators](media/vscode_gutter_indicators.png)
 
 Green bar: Line(s) added
 Blue bar: Line(s) modified
