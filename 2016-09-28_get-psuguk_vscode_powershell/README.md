@@ -7,6 +7,8 @@ Connect with me on LinkedIn: [Daniel Krebs](https://www.linkedin.com/in/krebsdan
 
 ## A) Welcome and Introduction
 
+Hello, my name is ...
+
 ## B) Demo 1
 
 ### 1. What is VS Code?
@@ -16,7 +18,9 @@ A code optimized editor with built-in debugging and extension support.
 Lightweight code/text editor in between Notepad and full-featured IDEs.
 
 Based on the Electron framework like Atom, Slack but not a fork of Atom.
-Actually based on the Visual Studio Online editor (Monaco) 
+Actually based on the Visual Studio Online editor (Monaco)
+
+![media/vscode_what_is_it.png]
 
 ### 2. Where to get it?
 
