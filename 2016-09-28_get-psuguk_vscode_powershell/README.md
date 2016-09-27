@@ -23,6 +23,7 @@ Based on the Electron framework like Atom, Slack but not a fork of Atom.
 Actually based on the Visual Studio Online editor (Monaco)
 
 ![What is VS Code?](media/vscode_what_is_it.png)
+Source: [Build 2016 - Best of Visual Studio Code: Tips and Tricks](https://channel9.msdn.com/events/Build/2016/B887)
 
 ### 2. Where to get it?
 
