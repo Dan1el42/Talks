@@ -1,6 +1,6 @@
 # Talk: Visual Studio Code and PowerShell
 
-Notes and code on GitHub: http://bit.ly/2dpebuz
+Notes and code on GitHub: http://bit.ly/get-psuguk-vscode
 
 Follow me on Twitter: [Dan1el42](https://twitter.com/Dan1el42)
 Connect with me on LinkedIn: [Daniel Krebs](https://www.linkedin.com/in/krebsdaniel)
@@ -19,8 +19,6 @@ Lightweight code/text editor in between Notepad and full-featured IDEs.
 
 Based on the Electron framework like Atom, Slack but not a fork of Atom.
 Actually based on the Visual Studio Online editor (Monaco)
-
-![media/vscode_what_is_it.png]
 
 ### 2. Where to get it?
 
