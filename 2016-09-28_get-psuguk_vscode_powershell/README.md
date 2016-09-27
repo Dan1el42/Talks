@@ -2,8 +2,8 @@
 
 Notes and code on GitHub: http://bit.ly/get-psuguk-vscode
 
-Follow me on Twitter: [Dan1el42](https://twitter.com/Dan1el42)
-Connect with me on LinkedIn: [Daniel Krebs](https://www.linkedin.com/in/krebsdaniel)
+- Follow me on Twitter: [Dan1el42](https://twitter.com/Dan1el42)
+- Connect with me on LinkedIn: [Daniel Krebs](https://www.linkedin.com/in/krebsdaniel)
 
 ## A) Welcome and Introduction
 
