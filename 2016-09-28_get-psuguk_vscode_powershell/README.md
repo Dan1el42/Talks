@@ -5,6 +5,10 @@ Notes and code on GitHub: http://bit.ly/get-psuguk-vscode
 - Follow me on Twitter: [Dan1el42](https://twitter.com/Dan1el42)
 - Connect with me on LinkedIn: [Daniel Krebs](https://www.linkedin.com/in/krebsdaniel)
 
+## Table of Contents
+
+
+
 ## A) Welcome and Introduction
 
 Hello, my name is ...
@@ -153,12 +157,19 @@ Red triangle: Line(s) deleted
 <kbd>F1</kbd>
 
 `?` Get help
+
 `>` Show and Run commands
+
 `!` 
+
 `#` Search symbols
+
 `edt` 
+
 `ext`
+
 `git`
+
 `task`
 
 **Markdown preview**
@@ -168,7 +179,9 @@ Red triangle: Line(s) deleted
 **Navigate file history**
 
 <kbd>CMD+Tab</kbd>
+
 <kbd>ALT+Left</kbd>
+
 <kbd>ALT+Right</kbd>
 
 **Keyboard bindings**
@@ -249,9 +262,11 @@ Define with <kbd>Ctrl+K Ctrl+K</kbd>
 `file`
 `file:line:column?`
 
-#### e. Snippets / JSON schema
+#### e. Snippets
 
+```JSON
 
+```
 
 ### 4. Extensions
 
