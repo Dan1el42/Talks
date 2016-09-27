@@ -1,6 +1,6 @@
 # Talk: Visual Studio Code and PowerShell
 
-Notes and code on GitHub: http://bit.ly/get-psuguk-vscode
+> Notes on GitHub: http://bit.ly/get-psuguk-vscode
 
 - Follow me on Twitter: [Dan1el42](https://twitter.com/Dan1el42)
 - Connect with me on LinkedIn: [Daniel Krebs](https://www.linkedin.com/in/krebsdaniel)
@@ -19,12 +19,12 @@ Hello, my name is ...
 
 ### 1. What is VS Code?
 
-A code optimized editor with built-in debugging and extension support.
-
-Lightweight code/text editor in between Notepad and full-featured IDEs.
-
-Based on the Electron framework like Atom, Slack but not a fork of Atom.
-Actually based on the Visual Studio Online editor (Monaco)
+> A code optimized editor with built-in debugging and extension support.
+>
+> Lightweight code/text editor set between Notepad and full-featured IDEs.
+> 
+> Based on the Electron framework like Atom, Slack but not a fork of Atom.
+> Actually based on the Visual Studio Online editor (Monaco).
 
 ![What is VS Code?](media/vscode_what_is_it.png)
 Source: [Build 2016 - Best of Visual Studio Code: Tips and Tricks](https://channel9.msdn.com/events/Build/2016/B887)
