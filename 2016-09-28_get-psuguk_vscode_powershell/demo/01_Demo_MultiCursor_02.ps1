@@ -9,6 +9,9 @@ Initialize-TestEnvironment `
     -TestType Unit `
     | Out-Null
 
+
+# a comment
+
 InModuleScope 'MSFT_xGroupResource' {
     Describe 'xGroup Unit Tests'  {
 
